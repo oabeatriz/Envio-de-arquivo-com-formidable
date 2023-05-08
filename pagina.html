@@ -1,0 +1,72 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style type="text/css" id="operaUserStyle"></style>
+</head>
+<body id="principal">
+    <div class="title">
+    <h1>Envie seu arquivo aqui</h1>
+    </div>
+    <section class="envio">
+     <form action="enviodearquivo"  method="post" enctype="multipart/form-data">
+
+     <input type="file" name="filetoupload"><br>
+     <input type="submit" value="Enviar">
+    </form>
+
+
+    </section>
+    <style>
+        #principal {
+            color: rgb(182, 154, 141);
+            
+        }
+
+       .title {
+        color: rgb(194, 169, 136);
+        text-shadow: 1px 1px black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: flex;
+        justify-content: center;
+       }
+
+     .envio {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: rgb(239, 186, 117);
+    width: 700px;
+    margin: 18rem;
+    height: 450px;
+    margin-top: 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+     }
+
+     .envio input {
+    padding: 5px;
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 1.0s;
+    color: black;
+     }
+
+     .envio input:hover{
+     background-color: #cda96e;
+     }
+
+
+
+    </style>
+
+
+</body>
+</html>
